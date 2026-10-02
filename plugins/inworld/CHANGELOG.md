@@ -1,5 +1,12 @@
 # @livekit/agents-plugin-inworld
 
+## 1.9.2
+
+### Patch Changes
+
+- Updated dependencies [[`6983459`](https://github.com/livekit/agents-js/commit/6983459517ccd4434c319375f3e2897d76d82e91), [`df97b86`](https://github.com/livekit/agents-js/commit/df97b867b3b16efbd348584c818cefc5536ef21a), [`52e3a04`](https://github.com/livekit/agents-js/commit/52e3a04a12397e34cdd17f93b4cdece648769540)]:
+  - @livekit/agents@1.9.2
+
 ## 1.9.1
 
 ### Patch Changes

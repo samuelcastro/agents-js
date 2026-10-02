@@ -1,5 +1,18 @@
 # @livekit/agents
 
+## 1.9.2
+
+### Patch Changes
+
+- Tag the destination identity in avatar clear-buffer failure logs as PII. - [#2623](https://github.com/livekit/agents-js/pull/2623) ([@chenghao-mou](https://github.com/chenghao-mou))
+  Expose `telemetry.traceTypes.ATTR_DESTINATION_IDENTITY` for the shared log key.
+
+- Prevent rejected avatar clear-buffer RPCs from emitting unhandled rejections or stranding - [#2045](https://github.com/livekit/agents-js/pull/2045) ([@smorimoto](https://github.com/smorimoto))
+  playout waiters.
+
+- Prevent TTS fallback and stream adapters from counting provider usage twice in metrics events - [#2621](https://github.com/livekit/agents-js/pull/2621) ([@chenghao-mou](https://github.com/chenghao-mou))
+  and traces.
+
 ## 1.9.1
 
 ### Patch Changes
